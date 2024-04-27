@@ -1,0 +1,23 @@
+{
+  "name": "@exnar_abubakar/number-guessing-game",
+  "version": "1.0.0",
+  "description": "Number-guessing-game by Exnar a.k.a Abubakar siddique",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "guess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abubakar siddique",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
